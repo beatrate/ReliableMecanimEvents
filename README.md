@@ -9,6 +9,7 @@ Not guaranteed to be bug free.**
 
 ###Mecanim Event
 ![Mecanim Event inspector](https://github.com/beatrate/ReliableMecanimEvents/blob/master/Images/reliable-mecanim-event-inspector.PNG)
+
 Each Mecanim Event is a handler for all possible events raised by the animator states. It contains animator event instances raised on state entry, state exit as well as events raised during state update.
 
 **Dispatch Mode:** determines whether event instance is dispatched using MonoBehaviour's SendMessage() or raised on Mecanime Event Receiver on the animator.
