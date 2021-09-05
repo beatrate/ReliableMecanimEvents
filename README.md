@@ -4,9 +4,6 @@ Reliable Mecanim Events is intended for replacing the existing Animation Events 
 Events placed directly in clips are replaced by event handler on animator states.
 Inspired by Firewatch's animator events.
 
-**WARNING: this repository isn't used for development, it's a mirror of changes done on Plastic SCM server of the game I'm using it for.
-Not guaranteed to be bug free.**
-
 ### Mecanim Event
 ![Mecanim Event inspector](https://github.com/beatrate/ReliableMecanimEvents/blob/master/Images/reliable-mecanim-event-inspector.PNG)
 
