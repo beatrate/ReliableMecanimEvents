@@ -448,24 +448,6 @@ namespace Beatrate.ReliableMecanimEvents
 			}
 
 			return true;
-
-			//MecanimEventTimestamp? lastCall = lastCallEventTimestamps[eventIndex];
-			//if(!e.AlwaysTrigger)
-			//{
-			//	return false;
-			//}
-
-			//if(!lastCall.HasValue)
-			//{
-			//	return true;
-			//}
-
-			//if(!e.RepeatOnLoop)
-			//{
-			//	return false;
-			//}
-
-			//return lastCall.Value.Cycle != cycle;
 		}
 
 		private bool ShouldCallEventOnUpdate(int eventIndex, AnimatorStateInfo stateInfo)
@@ -499,30 +481,6 @@ namespace Beatrate.ReliableMecanimEvents
 			}
 
 			return false;
-			//MecanimEventTimestamp? lastCall = lastCallEventTimestamps[eventIndex];
-
-			//if(stateInfo.speedMultiplier >= 0.0f)
-			//{
-			//	if(timeInSeconds < e.Time)
-			//	{
-			//		return false;
-			//	}
-			//}
-			//else
-			//{
-			//	// Support reverse time speed.
-			//	if(timeInSeconds > e.Time)
-			//	{
-			//		return false;
-			//	}
-			//}
-
-			//if(lastCall.HasValue && lastCall.Value.Cycle != cycle && !e.RepeatOnLoop)
-			//{
-			//	return false;
-			//}
-
-			//return true;
 		}
 
 		private bool TimeRangeContains(float value, float start, float end)
